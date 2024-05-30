@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(119, 119, 119);
+}
+
+.cartao {
+    display: flex;
+    justify-content: center;
+}
+
+.cartao-Pessoal {
+    background-color: #000000;
+    align-items: center;
+    height: 455px;
+    width: 310px;
+    border-radius: 15px;
+    box-shadow: 0 7px 10px rgba(34, 34, 34, 0.8);
+}
+
+.img {
+    display: flex;
+    padding: 40px 55px;
+}
+
+.nome{
+    display: flex;
+    color: rgb(179, 155, 77);
+    padding: 0px 30%;
+}
+
+.setores {
+    padding: 10px 34%;
+}
+
+.setor{
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.sede {
+    font-size: 1.5ch;
+    color: #fff;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
