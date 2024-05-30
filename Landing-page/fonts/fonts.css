@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'gibstoneblack';
+    src: url(./GibstoneTrial-Black.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gibstonebold';
+    src: url(./GibstoneTrial-Bold.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gibstonelight';
+    src: url(./GibstoneTrial-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'gibstonemedium';
+    src: url(./GibstoneTrial-Medium.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sasha-marceline';
+    src: url(./Sasha-Marceline.ttf);
+    font-weight: normal;
+    font-style: normal;
+}

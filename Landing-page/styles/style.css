@@ -1,0 +1,129 @@
+body{
+    background-color: rgb(252, 255, 240);
+    color: rgb(0, 0, 99);
+    font-family: gibstonemedium;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#buy {
+    font-family: gibstonelight;
+    font-weight: 200;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 7px;
+    text-align: center;
+    font-size: x-large;
+
+}
+
+h1 {
+    font-weight: 200;
+}
+
+a {
+    color: rgb(0, 0, 99);
+}
+
+a:hover {
+    color: rgb(180, 137, 73);
+    transition: 0.4s;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.wallet {
+    background-color: rgb(0,0,99);
+    border: 2px solid rgb(0, 0, 99);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-right: 0px;
+}
+
+.wallet:hover {
+    background-color: rgb(255, 195, 160);
+    color: rgb(0, 0, 99);
+    transition: 0.4s;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    align-self: center;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: gibstonemedium;
+}
+
+p {
+    line-height: 28px;
+    max-width: 500px;
+    font-family: gibstonelight;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+img {
+    display: flex;
+    height: 580px;
+    padding-left: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+form [type="submit"]{
+    height: 80%;
+    width: 80%;
+    background-color: rgb(0, 0, 99);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+   cursor: pointer;
+   background-color: rgb(180, 137, 73);
+   color: rgb(0, 0, 99);
+   transition: 0.4s;
+}
+
+input {
+    margin-top: 20px;
+    height: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    align-self: center;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+    padding-left: 400px;
+}
